@@ -1,0 +1,6 @@
+services:
+  web:
+    build: .
+    image: dackata/game:latest
+    ports:
+      - "8777:8777"
